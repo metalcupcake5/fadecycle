@@ -1,0 +1,1 @@
+My circuit uses a finite state machine for each LED color. The colors only change on degrees of multiple of 60, so a cycle can be split into 6 states. On each segment I set whether the PWM of the specific color should be increasing, decreasing, or stable.
